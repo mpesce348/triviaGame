@@ -1,7 +1,47 @@
-.background {
-	background-image: url(..images/background.png);
+.backGround {
+	background-image: url(http://www.dolorescannon.com/blog/wp-content/uploads/2013/03/IMG_0394.jpg);
 	background-attachment: fixed;
 	background-position: center;
-	background-repeat: no-repeat;
-	height: 
+	background-repeat: repeat;
+	background-size: 100%;
+	height: 100%;
+	background-color: transparent !important;
+	opacity: 0.9;
+	padding-bottom: 200px;
+	margin-bottom: -300px;
 }
+#titleWords {
+	background-position: center;
+	text-align: center;
+	background-color: transparent !important;
+	opacity: 0.9;
+	color: red;
+}
+.questions {
+	text-align: center;
+	background-color: transparent !important;
+	opacity: 0.9;
+}
+.startBtn {
+	background-position: center;
+	text-align: center;
+}
+#gameOver {
+	text-align: center;
+	background-color: transparent !important;
+	opacity: 0.9;
+}
+h3 {
+	color: red;
+}
+.timeBox {
+	text-align: center;
+	background-position: center;
+}
+.timer {
+	text-align: center;
+	background-position: center;
+}
+/*html {
+	background-image: url(http://www.dolorescannon.com/blog/wp-content/uploads/2013/03/IMG_0394.jpg);
+}*/
