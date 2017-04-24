@@ -46,6 +46,11 @@ h3 {
 .we {
 	color: red;
 }
-/*html {
+html {
 	background-image: url(http://www.dolorescannon.com/blog/wp-content/uploads/2013/03/IMG_0394.jpg);
-}*/
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: repeat;
+	background-size: 100%;
+	height: 100%;
+}
