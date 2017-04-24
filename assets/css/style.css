@@ -41,6 +41,10 @@ h3 {
 .timer {
 	text-align: center;
 	background-position: center;
+	color: red;
+}
+.we {
+	color: red;
 }
 /*html {
 	background-image: url(http://www.dolorescannon.com/blog/wp-content/uploads/2013/03/IMG_0394.jpg);
