@@ -4,7 +4,7 @@
 var correct = 0;
 var incorrect = 0;
 var unanwsered= 0;
-var timer=60;
+var timer=45;
 
 // jQuery to hide the questions and scoreboard 
 //until the start button is clicked
