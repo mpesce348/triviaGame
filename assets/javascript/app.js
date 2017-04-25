@@ -51,10 +51,10 @@ function decriment() {
 		$("#gameOver").show();
 		//append the # of correct anwsers to the div with 
 		//id "correct"
-		$("#correct").html(correct);
+		$("#correct").html("Correct Anwsers: "+correct);
 		//appends the # of incorrect anwsers to the div with 
 		//the id "incorrect"
-		$("#incorrect").html(incorrect);
+		$("#incorrect").html("Wrong Anwsers: " +incorrect);
 	}
 }
 function anwser(element) {
