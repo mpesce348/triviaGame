@@ -1,7 +1,7 @@
 
 //my variables
 
-var correct = 0
+var correct = 0;
 var incorrect = 0;
 var unanwsered= 0;
 var timer=60;
@@ -40,8 +40,21 @@ function decriment() {
 
 	$(".timer").text(timer);
 	//console.log(timer);
-	if (timer ==0) {
+	if (timer ===0) {
 		//write code for time out event
+		console.log("Time's Up!");
+		//is supposed to stop the timer at 0
+		$(this).find(timer).stop;
+		//hides the question set
+		$(".questions").hide();
+		//shows the scoreboard
+		$("#gameOver").show();
+		//append the # of correct anwsers to the div with 
+		//id "correct"
+		$("#correct").html(correct);
+		//appends the # of incorrect anwsers to the div with 
+		//the id "incorrect"
+		$("#incorrect").html(incorrect);
 	}
 }
 function anwser(element) {
@@ -59,6 +72,9 @@ function anwser(element) {
 
 	}) 
 }
+$('[data-command="reset"]').click(function () {    
+   window.location.href = window.location.href;
+});
 
 startGame();
 		

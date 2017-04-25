@@ -53,4 +53,17 @@ html {
 	background-repeat: repeat;
 	background-size: 100%;
 	height: 100%;
+	background-color: transparent !important;
+	opacity: 0.9;
+}
+#resetBtn {
+	background-position: center;
+	text-align: center;
+
+}
+.resetButton {
+	background-position: center;
+	text-align: center;
+	margin-top: 100px;
+	
 }

@@ -36,7 +36,7 @@
 			<div class="row col-md-12 col-lg-12 col-xl-12 questions" id="q2">
 				<h3> What galaxy is the closest to the Milky Way Galaxy </h3>
 				<button type="button" class="btn btn-default q2">Triangulum  Galaxy</button>
-				<button type="button" class="btn btn-defaultq2">Circinus Galaxy</button>
+				<button type="button" class="btn btn-default q2">Circinus Galaxy</button>
 				<button type="button" class="btn btn-default correct q2" >Andromeda Galaxy</button>
 				<button type="button" class="btn btn-default q2">Starburst Galaxy</button>
 			</div>
@@ -106,8 +106,17 @@
 			</div>
 			<div class="row" id="gameOver">
 				<h3>How Did You Do?</h3>
-				<div id="wins"></div>
-				<div id="losses"></div>
+				<div class="winBox">
+					<h3 id="correct">Correct Anwsers: </h3>
+				</div>
+				<div class="lossBox">
+					<h3 id="incorrect"> Incorrect Anwsers: </h3>
+				</div>
+			</div>
+			<div >
+				<div class="resetButton">
+					<button type="button" data-command="reset" class="btn btn-default" id="resetBtn">Reset</button>
+				</div>
 			</div>
 			<!-- jQuery -->
 			<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.js"></script>
